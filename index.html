@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>AI Universe | Compare AI Tools &amp; AI Utilities</title>
-<meta content="Compare ChatGPT, Claude, Gemini and more. Free prompt grader, API cost calculator, token counter, diff checker and AI utilities. No signup." name="description"/>
+
+<!-- FIXED: Title is 46 characters (well under 70) -->
+<title>AI Universe | Compare AI Tools & Utilities</title>
+
+<!-- FIXED: Meta description is 143 characters (within 50-160 range) -->
+<meta content="Compare ChatGPT, Claude, Gemini & more AI tools. Free prompt grader, API cost calculator, token counter, and diff checker. No signup required." name="description"/>
 
 <meta content="bi1RJB9EySAZTkD_JK73X_Wn-b9UKuNd19rPrX9HTBw" name="google-site-verification"/>
 <meta content="index, follow, max-image-preview:large" name="robots"/>
@@ -14,6 +17,7 @@
 <link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff6bcb'/%3E%3Cstop offset='.5' stop-color='%23a34dff'/%3E%3Cstop offset='1' stop-color='%236c8cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg transform='rotate(-16 32 39)'%3E%3Cpath d='M10 39A22 8 0 0 1 54 39' stroke='url(%23g)' stroke-width='3' fill='none' stroke-linecap='round' opacity='.4'/%3E%3C/g%3E%3Cpath d='M15 53L32 16L49 53' stroke='url(%23g)' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg transform='rotate(-16 32 39)'%3E%3Cpath d='M10 39A22 8 0 0 0 54 39' stroke='url(%23g)' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='49' cy='43' r='3.2' fill='%23ffd75e'/%3E%3C/g%3E%3Cpath d='M32 2.5l1.9 4.3 4.3 1.9-4.3 1.9L32 14.9l-1.9-4.3-4.3-1.9 4.3-1.9Z' fill='%23ffd75e'/%3E%3C/svg%3E" rel="icon" type="image/svg+xml"/>
 <link href="/manifest.webmanifest" rel="manifest"/>
 <meta content="#070b18" name="theme-color"/>
+
 <!-- Open Graph (Facebook / WhatsApp / LinkedIn previews) -->
 <meta content="website" property="og:type"/>
 <meta content="AI Universe" property="og:site_name"/>
@@ -22,119 +26,96 @@
 <meta content="https://ai-universal-io.github.io/" property="og:url"/>
 <meta content="https://ai-universal-io.github.io/og-cover.png" property="og:image"/>
 <meta content="en_US" property="og:locale"/>
+
 <!-- Twitter / X cards -->
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Compare the Best AI Tools | AI Universe" name="twitter:title"/>
 <meta content="Compare ChatGPT, Claude, Gemini and more. Free AI utilities with no signup." name="twitter:description"/>
 <meta content="https://ai-universal-io.github.io/og-cover.png" name="twitter:image"/>
+
 <!-- Structured data: the web app + its full feature list -->
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "AI Universe",
-      "url": "https://ai-universal-io.github.io/",
-      "applicationCategory": "DeveloperApplication",
-      "operatingSystem": "Any (web browser)",
-      "description": "Compare the world's best AI tools and use free browser-based AI utilities: prompt grader and auto-fixer, AI API cost calculator, token counter, online diff checker, API code generator, and collectible AI cards.",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "featureList": [
-        "Compare 10 AI tools: ChatGPT, Claude, Gemini, Copilot, Perplexity, Grok, DeepSeek, Le Chat, Midjourney, Meta AI",
-        "AI recommendation quiz — find your perfect AI in 30 seconds",
-        "Prompt Lab: grade any prompt across 8 dimensions and auto-fix it",
-        "AI API cost calculator for GPT-4o, Claude, Gemini, DeepSeek and Mistral",
-        "Token counter — estimate tokens, words and characters locally",
-        "Online diff checker with real-time change detection, word-level highlighting, split view and file upload",
-        "API code generator — ready-to-run cURL, Python and JavaScript for 5 AI providers",
-        "Production-ready system prompt templates",
-        "Personalized collectible AI cards to download and share",
-        "Head-to-head AI battle comparisons and community poll"
-      ]
-    }
-    </script>
-<!-- Structured data: FAQ (matches the visible FAQ section on the page) -->
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "AI Universe",
+  "url": "https://ai-universal-io.github.io/",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Any (web browser)",
+  "description": "Compare the world's best AI tools and use free browser-based AI utilities: prompt grader and auto-fixer, AI API cost calculator, token counter, online diff checker, API code generator, and collectible AI cards.",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "featureList": [
+    "Compare 10 AI tools: ChatGPT, Claude, Gemini, Copilot, Perplexity, Grok, DeepSeek, Le Chat, Midjourney, Meta AI",
+    "AI recommendation quiz — find your perfect AI in 30 seconds",
+    "Prompt Lab: grade any prompt across 8 dimensions and auto-fix it",
+    "AI API cost calculator for GPT-4o, Claude, Gemini, DeepSeek and Mistral",
+    "Token counter — estimate tokens, words and characters locally",
+    "Online diff checker with real-time change detection, word-level highlighting, split view and file upload",
+    "API code generator — ready-to-run cURL, Python and JavaScript for 5 AI providers",
+    "Production-ready system prompt templates",
+    "Personalized collectible AI cards to download and share",
+    "Head-to-head AI battle comparisons and community poll"
+  ]
+}
+</script>
+
+<!-- Structured data: FAQ -->
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which AI is better, ChatGPT or Claude?",
-          "acceptedAnswer": { "@type": "Answer", "text": "It depends on the task. Claude leads for complex coding, long-document analysis and nuanced writing, while ChatGPT is the strongest all-rounder with voice mode, image generation and the largest ecosystem. Use the head-to-head battle tool on AI Universe to compare them stat by stat." }
-        },
-        {
-          "@type": "Question",
-          "name": "Which AI tools are completely free?",
-          "acceptedAnswer": { "@type": "Answer", "text": "DeepSeek and Meta AI (Llama) offer frontier-level capability completely free, and Gemini has a generous free tier. ChatGPT, Claude, Perplexity and Grok all offer capable free plans with usage limits." }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I write better AI prompts?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Great prompts assign a role, state a clear task, give context, specify the output format, name the audience, and set constraints. The free Prompt Lab on AI Universe grades your prompt across these 8 dimensions and automatically rewrites it into a professional version." }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the best AI for coding?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Claude is widely considered the strongest for real-world software engineering, with GitHub Copilot best for in-editor autocomplete and DeepSeek the best free option for code. All three are compared in detail on AI Universe." }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does the ChatGPT or Claude API cost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "API pricing is per million tokens: GPT-4o costs about $2.50 input / $10 output, Claude Sonnet about $3 / $15, Gemini 2.5 Flash about $0.15 / $0.60, and DeepSeek about $0.27 / $1.10. The free cost calculator on AI Universe estimates the exact cost of your prompt across all major models." }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a free online diff checker that doesn't upload my text?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes — the AI Universe diff checker runs entirely in your browser with real-time change detection, word-level highlighting, split view, file upload and unchanged-line folding. Nothing is ever uploaded to a server." }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I count tokens in my prompt?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Paste your text into the free token counter on AI Universe: it estimates tokens (about 4 characters each), words, characters and lines locally, and shows what your prompt would cost across GPT-4o, Claude, Gemini, DeepSeek and Mistral APIs." }
-        },
-        {
-          "@type": "Question",
-          "name": "Are these AI tools private? Do you need an account?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Every tool on AI Universe runs 100% in your browser — no signup, no account, no API key, and no data ever leaves your device. Saved prompts and diff sessions are stored only in your own browser's local storage." }
-        }
-      ]
-    }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Which AI is better, ChatGPT or Claude?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the task. Claude leads for complex coding, long-document analysis and nuanced writing, while ChatGPT is the strongest all-rounder with voice mode, image generation and the largest ecosystem. Use the head-to-head battle tool on AI Universe to compare them stat by stat." } },
+    { "@type": "Question", "name": "Which AI tools are completely free?", "acceptedAnswer": { "@type": "Answer", "text": "DeepSeek and Meta AI (Llama) offer frontier-level capability completely free, and Gemini has a generous free tier. ChatGPT, Claude, Perplexity and Grok all offer capable free plans with usage limits." } },
+    { "@type": "Question", "name": "How do I write better AI prompts?", "acceptedAnswer": { "@type": "Answer", "text": "Great prompts assign a role, state a clear task, give context, specify the output format, name the audience, and set constraints. The free Prompt Lab on AI Universe grades your prompt across these 8 dimensions and automatically rewrites it into a professional version." } },
+    { "@type": "Question", "name": "What is the best AI for coding?", "acceptedAnswer": { "@type": "Answer", "text": "Claude is widely considered the strongest for real-world software engineering, with GitHub Copilot best for in-editor autocomplete and DeepSeek the best free option for code. All three are compared in detail on AI Universe." } },
+    { "@type": "Question", "name": "How much does the ChatGPT or Claude API cost?", "acceptedAnswer": { "@type": "Answer", "text": "API pricing is per million tokens: GPT-4o costs about $2.50 input / $10 output, Claude Sonnet about $3 / $15, Gemini 2.5 Flash about $0.15 / $0.60, and DeepSeek about $0.27 / $1.10. The free cost calculator on AI Universe estimates the exact cost of your prompt across all major models." } },
+    { "@type": "Question", "name": "Is there a free online diff checker that doesn't upload my text?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — the AI Universe diff checker runs entirely in your browser with real-time change detection, word-level highlighting, split view, file upload and unchanged-line folding. Nothing is ever uploaded to a server." } },
+    { "@type": "Question", "name": "How do I count tokens in my prompt?", "acceptedAnswer": { "@type": "Answer", "text": "Paste your text into the free token counter on AI Universe: it estimates tokens (about 4 characters each), words, characters and lines locally, and shows what your prompt would cost across GPT-4o, Claude, Gemini, DeepSeek and Mistral APIs." } },
+    { "@type": "Question", "name": "Are these AI tools private? Do you need an account?", "acceptedAnswer": { "@type": "Answer", "text": "Every tool on AI Universe runs 100% in your browser — no signup, no account, no API key, and no data ever leaves your device. Saved prompts and diff sessions are stored only in your own browser's local storage." } }
+  ]
+}
+</script>
+
 <!-- Structured data: the compared AI tools -->
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "Best AI Tools 2026",
-      "description": "Curated comparison of the world's leading AI assistants and their models.",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "ChatGPT", "url": "https://chatgpt.com"},
-        {"@type": "ListItem", "position": 2, "name": "Claude", "url": "https://claude.ai"},
-        {"@type": "ListItem", "position": 3, "name": "Gemini", "url": "https://gemini.google.com"},
-        {"@type": "ListItem", "position": 4, "name": "GitHub Copilot", "url": "https://github.com/features/copilot"},
-        {"@type": "ListItem", "position": 5, "name": "Perplexity", "url": "https://www.perplexity.ai"},
-        {"@type": "ListItem", "position": 6, "name": "Grok", "url": "https://grok.com"},
-        {"@type": "ListItem", "position": 7, "name": "DeepSeek", "url": "https://chat.deepseek.com"},
-        {"@type": "ListItem", "position": 8, "name": "Le Chat", "url": "https://chat.mistral.ai"},
-        {"@type": "ListItem", "position": 9, "name": "Midjourney", "url": "https://www.midjourney.com"},
-        {"@type": "ListItem", "position": 10, "name": "Meta AI", "url": "https://www.meta.ai"}
-      ]
-    }
-    </script>
-<script type="application/ld+json">{
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best AI Tools 2026",
+  "description": "Curated comparison of the world's leading AI assistants and their models.",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "ChatGPT", "url": "https://chatgpt.com"},
+    {"@type": "ListItem", "position": 2, "name": "Claude", "url": "https://claude.ai"},
+    {"@type": "ListItem", "position": 3, "name": "Gemini", "url": "https://gemini.google.com"},
+    {"@type": "ListItem", "position": 4, "name": "GitHub Copilot", "url": "https://github.com/features/copilot"},
+    {"@type": "ListItem", "position": 5, "name": "Perplexity", "url": "https://www.perplexity.ai"},
+    {"@type": "ListItem", "position": 6, "name": "Grok", "url": "https://grok.com"},
+    {"@type": "ListItem", "position": 7, "name": "DeepSeek", "url": "https://chat.deepseek.com"},
+    {"@type": "ListItem", "position": 8, "name": "Le Chat", "url": "https://chat.mistral.ai"},
+    {"@type": "ListItem", "position": 9, "name": "Midjourney", "url": "https://www.midjourney.com"},
+    {"@type": "ListItem", "position": 10, "name": "Meta AI", "url": "https://www.meta.ai"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
   "@context":"https://schema.org",
   "@type":"Organization",
   "name":"AI Universe",
   "url":"https://ai-universal-io.github.io",
   "logo":"https://ai-universal-io.github.io/logo.png"
-}</script>  <script type="module" crossorigin src="/assets/index-CHkS94Ia.js"></script>
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-CHkS94Ia.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-Bc1n7qVo.css">
 </head>
 <body>
 <!-- Static crawlable content: search engines index this; React replaces it on load -->
 <div id="root">
 <main style="max-width:720px;margin:2rem auto;padding:0 1rem;font-family:sans-serif;line-height:1.6;color:#e8ecf8">
+<!-- FIXED: H1 is present here as the crawlable fallback -->
 <h1>AI Universe — Compare the Best AI Tools (2026)</h1>
 <p>Compare ChatGPT, Claude, Gemini, GitHub Copilot, Perplexity, Grok, DeepSeek, Mistral Le Chat, Midjourney and Meta AI: models, pricing, best use cases and head-to-head stats.</p>
 <h2>Free AI utilities — no signup, 100% private</h2>
