@@ -1,36 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Universe — Compare AI Tools & Free Prompt Grader</title>
-    <meta name="description" content="Compare ChatGPT, Claude, Gemini & 10 top AI tools. Free prompt grader, API cost calculator, diff checker and token counter — no signup, 100% private." />
-    <meta name="keywords" content="best AI tools 2026, ChatGPT vs Claude, AI comparison, free prompt generator, prompt engineering tool, prompt grader, AI API cost calculator, token counter online, free diff checker online, text compare tool, ChatGPT API cost, Claude API pricing, which AI is best for coding, free AI tools, AI model comparison, Gemini vs ChatGPT, DeepSeek free, AI prompt optimizer" />
-    <meta name="google-site-verification" content="bi1RJB9EySAZTkD_JK73X_Wn-b9UKuNd19rPrX9HTBw" />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <meta name="author" content="AI Universe" />
-    <link rel="canonical" href="https://ai-universal-io.github.io/" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff6bcb'/%3E%3Cstop offset='.5' stop-color='%23a34dff'/%3E%3Cstop offset='1' stop-color='%236c8cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg transform='rotate(-16 32 39)'%3E%3Cpath d='M10 39A22 8 0 0 1 54 39' stroke='url(%23g)' stroke-width='3' fill='none' stroke-linecap='round' opacity='.4'/%3E%3C/g%3E%3Cpath d='M15 53L32 16L49 53' stroke='url(%23g)' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg transform='rotate(-16 32 39)'%3E%3Cpath d='M10 39A22 8 0 0 0 54 39' stroke='url(%23g)' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='49' cy='43' r='3.2' fill='%23ffd75e'/%3E%3C/g%3E%3Cpath d='M32 2.5l1.9 4.3 4.3 1.9-4.3 1.9L32 14.9l-1.9-4.3-4.3-1.9 4.3-1.9Z' fill='%23ffd75e'/%3E%3C/svg%3E" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <meta name="theme-color" content="#070b18" />
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Universe | Compare AI Tools &amp; AI Utilities</title>
+<meta content="Compare ChatGPT, Claude, Gemini and more. Free prompt grader, API cost calculator, token counter, diff checker and AI utilities. No signup." name="description"/>
 
-    <!-- Open Graph (Facebook / WhatsApp / LinkedIn previews) -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="AI Universe" />
-    <meta property="og:title" content="AI Universe — Compare the Best AI Tools & Free AI Utilities" />
-    <meta property="og:description" content="10 frontier AIs compared. Grade & auto-fix your prompts, calculate API costs, diff texts, generate API code — free, private, no signup." />
-    <meta property="og:url" content="https://ai-universal-io.github.io/" />
-    <meta property="og:image" content="https://ai-universal-io.github.io/og-cover.png" />
-    <meta property="og:locale" content="en_US" />
-
-    <!-- Twitter / X cards -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="AI Universe — Compare the Best AI Tools & Free AI Utilities" />
-    <meta name="twitter:description" content="Which AI is best for YOU? Take the quiz, grade your prompts, compare API costs — all free." />
-    <meta name="twitter:image" content="https://ai-universal-io.github.io/og-cover.png" />
-
-    <!-- Structured data: the web app + its full feature list -->
-    <script type="application/ld+json">
+<meta content="bi1RJB9EySAZTkD_JK73X_Wn-b9UKuNd19rPrX9HTBw" name="google-site-verification"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="AI Universe" name="author"/>
+<link href="https://ai-universal-io.github.io/" rel="canonical"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff6bcb'/%3E%3Cstop offset='.5' stop-color='%23a34dff'/%3E%3Cstop offset='1' stop-color='%236c8cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg transform='rotate(-16 32 39)'%3E%3Cpath d='M10 39A22 8 0 0 1 54 39' stroke='url(%23g)' stroke-width='3' fill='none' stroke-linecap='round' opacity='.4'/%3E%3C/g%3E%3Cpath d='M15 53L32 16L49 53' stroke='url(%23g)' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg transform='rotate(-16 32 39)'%3E%3Cpath d='M10 39A22 8 0 0 0 54 39' stroke='url(%23g)' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='49' cy='43' r='3.2' fill='%23ffd75e'/%3E%3C/g%3E%3Cpath d='M32 2.5l1.9 4.3 4.3 1.9-4.3 1.9L32 14.9l-1.9-4.3-4.3-1.9 4.3-1.9Z' fill='%23ffd75e'/%3E%3C/svg%3E" rel="icon" type="image/svg+xml"/>
+<link href="/manifest.webmanifest" rel="manifest"/>
+<meta content="#070b18" name="theme-color"/>
+<!-- Open Graph (Facebook / WhatsApp / LinkedIn previews) -->
+<meta content="website" property="og:type"/>
+<meta content="AI Universe" property="og:site_name"/>
+<meta content="AI Universe — Compare the Best AI Tools &amp; Free AI Utilities" property="og:title"/>
+<meta content="10 frontier AIs compared. Grade &amp; auto-fix your prompts, calculate API costs, diff texts, generate API code — free, private, no signup." property="og:description"/>
+<meta content="https://ai-universal-io.github.io/" property="og:url"/>
+<meta content="https://ai-universal-io.github.io/og-cover.png" property="og:image"/>
+<meta content="en_US" property="og:locale"/>
+<!-- Twitter / X cards -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="AI Universe — Compare the Best AI Tools &amp; Free AI Utilities" name="twitter:title"/>
+<meta content="Which AI is best for YOU? Take the quiz, grade your prompts, compare API costs — all free." name="twitter:description"/>
+<meta content="https://ai-universal-io.github.io/og-cover.png" name="twitter:image"/>
+<!-- Structured data: the web app + its full feature list -->
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebApplication",
@@ -54,9 +52,8 @@
       ]
     }
     </script>
-
-    <!-- Structured data: FAQ (matches the visible FAQ section on the page) -->
-    <script type="application/ld+json">
+<!-- Structured data: FAQ (matches the visible FAQ section on the page) -->
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -104,9 +101,8 @@
       ]
     }
     </script>
-
-    <!-- Structured data: the compared AI tools -->
-    <script type="application/ld+json">
+<!-- Structured data: the compared AI tools -->
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
@@ -126,27 +122,31 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-CHkS94Ia.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bc1n7qVo.css">
-  </head>
-  <body>
-    <!-- Static crawlable content: search engines index this; React replaces it on load -->
-    <div id="root">
-      <main style="max-width:720px;margin:2rem auto;padding:0 1rem;font-family:sans-serif;line-height:1.6;color:#e8ecf8">
-        <h1>AI Universe — Compare the Best AI Tools (2026)</h1>
-        <p>Compare ChatGPT, Claude, Gemini, GitHub Copilot, Perplexity, Grok, DeepSeek, Mistral Le Chat, Midjourney and Meta AI: models, pricing, best use cases and head-to-head stats.</p>
-        <h2>Free AI utilities — no signup, 100% private</h2>
-        <ul>
-          <li><strong>Prompt Lab</strong> — grade any AI prompt across 8 dimensions and auto-fix it into a professional prompt</li>
-          <li><strong>AI API cost calculator</strong> — estimate what your prompt costs on GPT-4o, Claude, Gemini, DeepSeek and Mistral</li>
-          <li><strong>Token counter</strong> — count tokens, words and characters locally</li>
-          <li><strong>Online diff checker</strong> — real-time change detection, word-level highlights, split view, file upload</li>
-          <li><strong>API code generator</strong> — ready-to-run cURL, Python and JavaScript for 5 AI providers</li>
-          <li><strong>AI cards</strong> — personalized collectible cards for your favourite AI</li>
-        </ul>
-        <noscript><p>This site requires JavaScript for the interactive tools.</p></noscript>
-      </main>
-    </div>
-
-  </body>
+<script type="application/ld+json">{
+      "@context":"https://schema.org",
+      "@type":"Organization",
+      "name":"AI Universe",
+      "url":"https://ai-universal-io.github.io",
+      "logo":"https://ai-universal-io.github.io/logo.png"
+    }</script></head>
+<body>
+<!-- Static crawlable content: search engines index this; React replaces it on load -->
+<div id="root">
+<main style="max-width:720px;margin:2rem auto;padding:0 1rem;font-family:sans-serif;line-height:1.6;color:#e8ecf8">
+<h1>AI Universe — Compare the Best AI Tools (2026)</h1>
+<p>Compare ChatGPT, Claude, Gemini, GitHub Copilot, Perplexity, Grok, DeepSeek, Mistral Le Chat, Midjourney and Meta AI: models, pricing, best use cases and head-to-head stats.</p>
+<h2>Free AI utilities — no signup, 100% private</h2>
+<ul>
+<li><strong>Prompt Lab</strong> — grade any AI prompt across 8 dimensions and auto-fix it into a professional prompt</li>
+<li><strong>AI API cost calculator</strong> — estimate what your prompt costs on GPT-4o, Claude, Gemini, DeepSeek and Mistral</li>
+<li><strong>Token counter</strong> — count tokens, words and characters locally</li>
+<li><strong>Online diff checker</strong> — real-time change detection, word-level highlights, split view, file upload</li>
+<li><strong>API code generator</strong> — ready-to-run cURL, Python and JavaScript for 5 AI providers</li>
+<li><strong>AI cards</strong> — personalized collectible cards for your favourite AI</li>
+</ul>
+<noscript><p>This site requires JavaScript for the interactive tools.</p></noscript>
+</main>
+</div>
+<script src="/src/main.jsx" type="module"></script>
+</body>
 </html>
